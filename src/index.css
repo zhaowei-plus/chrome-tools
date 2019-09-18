@@ -1,0 +1,37 @@
+body {
+  width: 400px;
+  height: 600px;
+}
+.bottom-button {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  display: flex;
+  z-index: 2;
+}
+.bottom-button .van-button {
+  margin: 0 10px;
+}
+.save-loading {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  font-size: 12px;
+  padding: 3px 0;
+  text-align: center;
+  bottom: 64px;
+  color: #fff;
+  background-color: #07c160;
+}
+.select-type {
+  width: 95px;
+  padding: 0 5px;
+  border: 1px #eee solid;
+  /*border: none;*/
+  background-color: #fff;
+  border-radius: 3px;
+  margin-right: 5px;
+}

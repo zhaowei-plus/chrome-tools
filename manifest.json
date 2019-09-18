@@ -1,0 +1,21 @@
+{
+  "name": "周报辅助工具",
+  "version": "1.0",
+  "description": "周报辅助工具",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "cookies",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "index.html"
+  },
+  "manifest_version": 2
+}
